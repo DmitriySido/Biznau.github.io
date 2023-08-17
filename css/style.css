@@ -2517,7 +2517,15 @@ section{
   }
 
   .footer__navigation-item {
-    width: 35%;
+    width: 40%;
+  }
+
+  .footer__navigation-item:last-child{
+    width: 50%;
+  }
+
+  .footer__column{
+    width: 90%;
   }
 
   /*Section*/
