@@ -2513,19 +2513,16 @@ section{
 
   .footer__column {
     position: relative;
-    width: 40%;
+  }
+
+
+  .footer__column {
+    position: relative;
+    width: 91%;
   }
 
   .footer__navigation-item {
-    width: 40%;
-  }
-
-  .footer__navigation-item:last-child{
-    width: 50%;
-  }
-
-  .footer__column{
-    width: 90%;
+    width: 35%;
   }
 
   /*Section*/
@@ -3154,15 +3151,19 @@ section{
   /*Footer*/
   .footer {
     padding-bottom: 30px;
-    margin-top: 336px;
+    margin-top: 150px;
   }
 
   .footer__navigation-item:first-child{
-    width: 45%;
+    width: 50%;
+  }
+
+  .footer__navigation-item:last-child{
+    width: 100%;
   }
 
   .footer__navigation-item:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 10px;
   }
 }
 
